@@ -34,6 +34,8 @@ set expandtab
 "智能TAB
 set smarttab
 
+set paste
+
 "(2)注释：选中文本后，输入;c即可注释，输入;u 即可取消注释"
 "vmap <silent> ;c :s/^/\/\//<CR>:noh<CR>
 "vmap <silent> ;u :s/\/\///<CR>:noh<CR>
@@ -41,4 +43,3 @@ set smarttab
 "color desert
 "在vim-gnome中
 map <C-c> "+y
-
