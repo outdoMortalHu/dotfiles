@@ -3,4 +3,5 @@ GTK_IM_MODULE DEFAULT=fcitx5
 QT_IM_MODULE  DEFAULT=fcitx5
 XMODIFIERS    DEFAULT=\@im=fcitx5
 RANGER_LOAD_DEFAULT_RC DEFAULT=FALSE
+KDEWM		  DEFAULT=/usr/bin/bspwm
 PATH          DEFAULT=${PATH}:@{HOME}/.npm-global/bin:@{HOME}/.gem/ruby/2.7.0/bin
