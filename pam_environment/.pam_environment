@@ -5,4 +5,5 @@ XMODIFIERS    DEFAULT=\@im=fcitx5
 RANGER_LOAD_DEFAULT_RC DEFAULT=FALSE
 LC_CTYPE	  DEFAULT=zh_CN.UTF-8 
 KDEWM		  DEFAULT=/usr/bin/bspwm
-PATH          DEFAULT=${PATH}:@{HOME}/.npm-global/bin:@{HOME}/.gem/ruby/2.7.0/bin
+STARSHIP_CONFIG DEFAULT=@{HOME}/.starship/config.toml
+PATH          DEFAULT=${PATH}:@{HOME}/.npm-global/bin:@{HOME}/.gem/ruby/2.7.0/bin:@{HOME}/.cargo/bin

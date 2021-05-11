@@ -1,0 +1,11 @@
+# Inserts a blank line between shell prompts
+add_newline = false
+
+[line_break]
+disabled = true
+
+# Replace the "❯" symbol in the prompt with "➜"
+#[character]                            
+#use_symbol_for_status = true
+#success_symbol = "[➜](blod green)"
+#error_symbol = "[✗](blod red)"
